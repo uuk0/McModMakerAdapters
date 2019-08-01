@@ -1,11 +1,16 @@
 {
   "forge_versions": {
-
+    "1.14.4-28.0.29": {
+      "mc-version": "1.14.4",
+      "mdk_url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.14.4-28.0.29/forge-1.14.4-28.0.29-mdk.zip"
+    }
   },
   "mcmodmaker_versions": {
 
   },
   "interface_versions": {
-
+    "0.0.0": {
+      "supports": ["1.14.4-28.0.29"]
+    }
   }
 }
