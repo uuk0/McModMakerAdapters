@@ -19,3 +19,6 @@ class IndexAdapter:
     def get_adapters_for_forge_build_and_mcmodmaker_build(self, forge, mcmodmaker) -> list:
         pass
 
+    def get_url_for_forge_version(self, forge):
+        return self.data["forge_versions"][forge]["mdk_url"]
+
